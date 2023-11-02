@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+
+}
+/* ====================== style cho header =====================*/
+.content-right {
+    background-color: #E4E2E6;
+}
+
+.header {
+    background-color: #272528;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #fff;
+    align-items: center;
+
+}
+
+ .header h1 {
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.header h1 span{
+    color: #6B8A9D; 
+}
+
+.header .right-content ul li.inline{
+    display: inline-block;
+    font-size: 1.7rem;
+    padding-top: 5px;
+    position: relative;
+}
+
+
+.right-content ul {
+    display: inline-block;
+}
+
+.right-content li:hover ul {
+   /* opacity: 1;*/
+   visibility: visible; 
+}
+
+.header .right-content ul li .fa-user{
+    padding-right: 5px;
+}
+
+.header .right-content ul li .fa-chevron-down{
+    padding-left: 3px;
+    font-size: 1.4rem;
+}
+
+.dropDown {
+    position: absolute;
+    background-color: #fff;
+    color: red;
+    top: 36px;
+    right: 0px;
+    box-shadow: 0 0 5px gray;
+    border-radius: 4px;
+    visibility: hidden;
+    /* transition: .4s ease; */
+}
+
+.dropDown li {
+   width: 200px;
+   font-size: 1.7rem;
+   font-weight: bold;
+   padding: 4px 0 4px 10px;
+   color: #272528;
+   /* transition: .3s ease;   */
+}
+
+.dropDown li:first-child {
+    padding-top: 9px;
+}
+.dropDown li:last-child {
+    padding-bottom: 9px;
+}
+
+.fa-chevron-down:hover {
+    cursor: pointer;
+}
+
+.dropDown li:hover {
+    opacity: 0.7;
+}
+
+.fa-chevron-down {
+    padding: 10px;
+}
+/* ====================== style cho sidebar =====================*/
+.container {
+    display: flex;
+}
+
+.content-right {
+    width: calc(100% - 250px);
+    background-color: #F5F3F7;
+}
+
+.content-left {
+    width: 250px;
+    height: calc(100vh - 60px);
+    background-color: #fff;
+    /* position: relative; */
+}
+
+.content-left .sideBar {
+    /* position: fixed; */
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.content-left ul li {
+    line-height: 5rem;
+    /* padding-left: 15px; */
+}
+
+.content-left ul li a {
+    /* position: relative; */
+    width: 100%;
+    font-size: 1.9rem;
+    color: #67B1F6;
+    font-weight: 500;
+    display: block;
+    transition: all .5s ease;
+    padding-left: 25px;
+}
+
+.content-left ul li:nth-child(7) {
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.content-left ul li a:hover {
+    background-color: #67B1F6;
+    color: #fff;
+}
+

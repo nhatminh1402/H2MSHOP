@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper-dssp {
+    width: 100%;
+    background-color: #F5F3F7;
+    padding: 20px 15px 0 15px;
+}
+
+.wrapper-dssp h1 {
+    font-size: 3rem;
+}
+
+.btn-list {
+    display: flex;
+    font-size: 2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+}
+
+.btn-list button {
+    background-color: #64ADF2;
+}
+
+.btn-list input, button {
+    font-size: 1.3rem;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 5px 10px grey;
+    font-size: 2.3rem;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+thead {
+    background-color: skyblue;
+}
+
+th {
+    padding: 10px 0;
+}
+
+.table-wrapper {
+    display: grid;
+}
+
+tr:nth-child(even){
+    background-color: #F3F6FB;
+}
+
+tbody tr:hover{
+    cursor:pointer;
+}
+
+td.contain-img {
+    width: 10%;
+}
+
+
+.pageNavigation ul li {
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 25px;
+    padding: 5px 13px;
+}
+
+.pageNavigation ul {
+   text-align: right;
+}
+
+.pageNavigation ul li a {
+    color: #65AFF9;
+}
+
+
+.bg-color {
+    background-color:#65AFF9;
+}

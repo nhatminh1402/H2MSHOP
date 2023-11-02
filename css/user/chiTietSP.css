@@ -1,0 +1,135 @@
+.detail-img img {
+    width: 80%;
+}
+
+.detail-img {
+    /* padding: 10px; */
+}
+
+.wrapper-detail {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 60% 40%; */
+    background-color: #fff;
+}
+
+.detail-left {
+    width: 40%;
+
+}
+
+.detail-right {
+    width: 60%;
+    padding-left: 30px;
+}
+
+.title-detail {
+    margin-top: 20px;
+    font-size: 2.6rem;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.price {
+    color: red;
+}
+
+.detail-right h3 {
+    font-size: 1.8rem;
+    padding: 2px;
+}
+
+.detail-right span {
+    font-size: 1.5rem;
+    color: grey;
+    font-weight: bold;
+    
+}
+
+.detail-right input {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.info-detail {
+    width: 100%;
+    border-top: 1px solid #CECDCF;
+
+}
+
+.info-detail h1{
+    font-size: 2.5rem;
+    padding-top:10px;
+
+}
+
+.wrapper-detail {
+    width: 100%;
+}
+
+.comment-area h1 {
+    font-size: 2.5rem;
+}
+
+.comment-area label {
+    font-size: 1.7rem;
+}
+
+.comment-area input:not(input:last-child){
+    width: 300px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.comment-area input:last-child {
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid gray;
+}
+
+.content-bottom {
+    width: 100%;
+    background-color: #fff;
+    padding-left: 10px;
+}
+
+.comment-detail {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.comment-detail h3:first-child {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.comment-detail h3:nth-child(2) {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #949494;
+}
+
+.comment-detail p {
+    font-size: 1.7rem;
+    color: black;
+    /* padding-top: 10px; */
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.info-detail p {
+    font-size: 2rem;
+}

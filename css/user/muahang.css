@@ -1,0 +1,78 @@
+.wrapper-buy {
+    width: 100%;
+    background-color: #fff;
+}
+
+.wrapper-buy h1 {
+    background-color: #484648;
+    color: #fff;
+    font-size: 2rem;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.table-detail-product {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.table-detail-product table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.table-detail-product table td{
+    border: 1px solid black;
+}
+
+.table-detail-product table thead td{
+    font-weight: bold;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.table-detail-product table tbody td{
+   padding: 10px 0;
+   padding-left: 3px;
+}
+
+.table-detail-product table tbody td:nth-child(2),
+.table-detail-product table tbody td:last-child
+{
+    color: red;
+}
+
+.table-detail-product tfoot td{
+    padding: 8px
+}
+
+.table-detail-product tfoot td:first-child{
+    font-weight: bold;
+}
+
+.table-detail-product tfoot td:last-child{
+    text-align: right;
+    padding-right: 100px;
+}
+
+.wrapper-infor-buyer {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.wrapper-infor-buyer input {
+    margin-bottom: 10px;
+}
+.wrapper-infor-buyer input:not(input:last-child) {
+    width: 250px;
+}
+
+.wrapper-infor-buyer input:last-child {
+    width: 100px;
+    padding: 5px;
+    margin-left: 70px;
+}

@@ -1,0 +1,1 @@
+alert("Tên danh mục bị trùng. Vui lòng nhập tên khác!")

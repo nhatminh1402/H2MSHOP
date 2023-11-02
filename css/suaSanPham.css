@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper__addProduct {
+    width: 100%;
+    background-color: #F3F4F7;
+    width: 100%;
+    padding: 50px 15px 0 15px;
+}
+
+.wrapper__addProduct h1 {
+    font-size: 3.5rem;
+}
+
+.form-control {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    width: 100%;
+    font-size: 2rem;
+    padding-top: 15px;
+}
+
+.form-control-left, .form-control-right {
+    width: 50%;
+}
+
+.form-group input:not(input[type="radio"]) {
+    width: 90%;
+    height: 30px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.form-control {
+    background-color: #fff;
+    padding: 0px 15px;
+}
+
+.btn-submit {
+    padding: 10px 0 30px 0;
+}
+
+.btn-submit input {
+    padding: 7px;
+    width: 120px;
+    background-color: #7CB1F0;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+

@@ -1,0 +1,33 @@
+.wrapper-complete {
+    width: 100%;
+}
+
+.content-text {
+    margin-top: 25px;
+    background-color: #fff;
+    border: 1px solid #CAEAA1;
+    color: #a4d564;
+    padding: 10px;
+}
+
+ul {
+    list-style:decimal;
+    list-style-position: inside;
+}
+
+.content-text h1 {
+    padding-bottom: 5px;
+}
+.content-text p {
+    text-align: center;
+    color: #a4d564;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.wrapper-complete a {
+    display: flex;
+    justify-content: right;
+    font-size: 1.8rem;
+    color: rgb(64, 64, 218);
+}
